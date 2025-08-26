@@ -20,7 +20,7 @@ mapview(risk, maxpixels = 9332000, layer.name = "Roadkill risk", na.color = "tra
 # Interactive map + presence points (vectorized)
 # ------------------------------------------------------------------
 # create road vector
-road.vec <- st_read("data_input/highway/highway.shp") %>% st_transform(st_crs(risk))
+road.vec <- st_read("data/input/highway/highway.shp") %>% st_transform(st_crs(risk))
 
 get_smooth_vect <- function(risk) {
   # extract risk values along road vectors (at vertices) from risk raster 
