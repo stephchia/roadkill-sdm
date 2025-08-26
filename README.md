@@ -15,7 +15,7 @@ A demo R workflow (including code and data) to map relative roadkill risk on Tai
 
 ## Quick start
 - Requirements: R; packages `dplyr`, `raster`, `terra`, `sf`, `mapview`, `rJava`, `dismo`
-- Input data placed under `data_input/`
+- Input data are placed under `data/input/`
   - `highway/` (shapefile of highway network)
   - `Taiwan_diss` (shapefile of Taiwan land)
   - `landcover/` (TIFs of WorldCover land cover)
@@ -25,5 +25,5 @@ A demo R workflow (including code and data) to map relative roadkill risk on Tai
   - scripts/01_prepare_data.R
   - scripts/02_fit_model.R
   - scripts/03_visualization.R
-- Outputs: intermediates in `data/`; fitted model and HTML maps in `output/`.
+- Outputs: intermediates in `data/processed/`; fitted model and HTML maps in `output/`.
 
