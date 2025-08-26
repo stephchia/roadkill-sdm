@@ -2,7 +2,7 @@
 
 A demo R workflow (including code and data) to map relative roadkill risk on Taiwan's highway network using MaxEnt (presence-only species distribution modeling).
 - Walkthrough: [HackMD page](https://hackmd.io/@sychamore/HyypHLLFxe)
-- Live map: [interactive roadkill risk map](https://hackmd.io/_uploads/H1haHIcteg.png) (screenshot below)
+- Live map: [interactive roadkill risk map](https://stephchia.github.io/roadkill-sdm/roadkill_risk_herpet_vect.html) (screenshot below)
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/dc3c0970-bb03-4319-ab1a-5d2127737427" />
 
